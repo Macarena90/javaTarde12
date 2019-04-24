@@ -1,0 +1,7 @@
+CREATE TABLE `actas`.`actas` ( 
+   `id` VARCHAR(36) NOT NULL , 
+   `multa` INT NOT NULL , 
+   `patente` VARCHAR(9) NOT NULL , 
+   `tipoVehiculo` VARCHAR(30) NOT NULL , 
+   `velocidadMedida` INT NOT NULL 
+) ENGINE = InnoDB;
